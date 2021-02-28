@@ -1,0 +1,44 @@
+{
+  "name": "webrtcconf",
+  "version": "1.0.0",
+  "description": "Simple client side WebRTC",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "expres": "^0.0.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "peer": "^0.6.1",
+    "peerjs": "^1.3.1",
+    "socket.io": "^3.1.2",
+    "sucrase": "^3.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test npx mocha --require sucrase/register --recursive  --exit",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiomcg/WebRTCConf.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "webrtc"
+  ],
+  "author": "Caio Guedes, Yure Galdino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiomcg/WebRTCConf/issues"
+  },
+  "homepage": "https://github.com/caiomcg/WebRTCConf#readme"
+}
